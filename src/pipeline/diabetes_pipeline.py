@@ -118,7 +118,7 @@ def data_engineering_pipeline2(df, train_flag=0):
 
 
 
-
+"""
 from sklearn.linear_model import LogisticRegression 
 
 data_file = os.path.join(cf.DATA_RAW_PATH, "diabetes.csv")
@@ -137,4 +137,4 @@ model.fit(processed_X_train, y_train)
 model_file_name = 'diabetes_logistic_regression.pkl'
 save_path = os.path.join(cf.TRAINED_MODEL_PATH, model_file_name)
 joblib.dump(model, save_path)
-
+"""
