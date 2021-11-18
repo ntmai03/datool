@@ -1,4 +1,4 @@
-sample project with conda environment
+Data Analytics App
 ==============================
 
 Create new environment: conda env create -f environment.yml -n ml-env
@@ -10,17 +10,6 @@ Update environment: conda env update -f environment.yml -n ml-env
 This project uses:
 
 * `conda` for managing the development environment.
-* `kedro` for structuring the source code and organising data pipelines.
-
-
-## A Note About Git Tracking
-
-The `.gitignore` file of this repository has been configured to avoid tracking the following files:
-
-* Any files whose names contain the word `credential`.
-* All files in the `conf/local` folder.
-* All files in the `data` folder (you can use this folder to stored temporary files for your experiments).
-
 
 ### 1. Managing the Development Environment
 
